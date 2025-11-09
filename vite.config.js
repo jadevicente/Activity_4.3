@@ -4,12 +4,14 @@ export default {
     root: 'src/',
     publicDir: '../static/',
     base: '/Activity_4.3/',
+    
     server:
     {
         host: true,
         open: !isCodeSandbox // Open if it's not a CodeSandbox
     },
     build:
+
     {
         outDir: '../dist',
         emptyOutDir: true,
